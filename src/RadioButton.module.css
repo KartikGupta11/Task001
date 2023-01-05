@@ -1,0 +1,50 @@
+.btntextt{
+    position: relative;
+    z-index: 1;
+    padding: 1.1rem 2rem 1.2rem;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+
+}
+.btnshadow2{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: #f1f333;
+    border-radius: 4px;
+    /* width: 100%;
+    height: 100%; */
+    /* transform: translate3d(0rem, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); */
+    transform-style: preserve-3d !important;
+}
+/* 
+.btnshadow2:hover{
+    transform: translate3d(1rem, 1rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)
+} */
+
+.btnshadow{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 4px;
+    background-color: #ff90e8;
+    transform-style: preserve-3d !important;
+}
+/* 
+.btnshadow:hover{
+    transform: translate3d(0.5rem, 0.5rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+} */
+
+/* .shadow-button-wrap:hover {
+    transform: translate3d(0rem, 0rem, 0px) scale3d(5, 5, 5) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) !important;
+} */

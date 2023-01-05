@@ -1,0 +1,90 @@
+.section{
+    background-color: #ffc900;
+    position: relative;
+    padding-top: 6.5rem;
+    padding-bottom: 7rem;
+}
+@media screen and (max-width: 991px){
+.section {
+    padding-top: 5.5rem;
+    /* padding-bottom: 0rem; */
+}
+}
+@media screen and (max-width: 767px){
+    .section {
+        padding-bottom: 5rem;
+        padding-top: 4rem;
+    }
+    }
+    .container {
+        padding-right: 4vw;
+        padding-left: 4vw;
+    }
+    @media screen and (max-width: 991px){
+.container {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}}
+@media screen and (max-width: 767px){
+.container {
+    max-width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}}
+@media screen and (max-width: 479px){
+.container {
+    max-width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}}
+.sectionintro{
+    display: grid;
+    width: 65vw;
+    max-width: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    justify-content: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0rem;
+    grid-row-gap: 2.5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+@media screen and (max-width: 991px){
+.sectionintro {
+    width: 100%;
+    grid-row-gap: 2rem;
+}}
+
+.sectiontagline {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 479px){
+.sectiontagline {
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+}}
+
+.textmd {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+}
+@media screen and (max-width: 991px){
+.textmd {
+    font-size: 1.375rem;
+}}
+@media screen and (max-width: 479px){
+.textmd {
+    font-size: 1.188rem;
+    line-height: 1.4;
+    letter-spacing: 0.005em;
+}}
+
+.head{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
